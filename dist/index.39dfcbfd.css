@@ -101,6 +101,14 @@ body {
 }
 
 @font-face {
+  font-family: Space Grotesk;
+  src: url("SpaceGrotesk-Regular.1ad54bb9.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: George X;
   src: url("george-x-regular.2b5786ea.woff2") format("woff2"), url("george-x-regular.0df6b92e.woff") format("woff");
   font-weight: normal;
@@ -139,7 +147,7 @@ body {
 }
 
 html {
-  color: #f9f1e7;
+  color: #ddd;
   background-color: #28282b;
   font-size: .694444vw;
   line-height: 1;
@@ -154,7 +162,7 @@ html {
 }
 
 body {
-  font-family: Suisse BP;
+  font-family: Space Grotesk;
   position: fixed;
 }
 

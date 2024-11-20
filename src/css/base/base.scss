@@ -12,8 +12,8 @@ html {
 
   position: fixed;
   overflow: hidden;
-  background-color: $color-matter-black;
-  color: $color-quarter-spanish-white;
+  background-color: $color-matte-black;
+  color: $color-alto;
 
   @include media("<phone") {
     font-size: calc((100vw / 750) * 10);
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: $font-suisee-bp;
+  font-family: $font-space-grotesk;
   @extend %description-16;
   @extend %cover;
 
